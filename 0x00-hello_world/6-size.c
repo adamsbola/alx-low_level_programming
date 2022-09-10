@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 /**
- *
  * * main - Prints the sizeof many var types
  *
  * *
@@ -35,6 +34,4 @@ int main(void)
 
 	printf("Size of a float: %d byte(s)\n", sizeof(e));
 
-	return (0);
-
-}
+	return (0)											}
