@@ -1,5 +1,4 @@
 /**
- *
  * * main - Prints the sizeof many var types
  *
  * *
