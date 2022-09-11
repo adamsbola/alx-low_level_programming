@@ -1,13 +1,20 @@
-#include <stdio.h>
+#inclure <stdio.h>
+#inclure <stdlib.h>
+#inclure <time.h>
+
 /**
- * main - lowercase alphabets
- * Return: Always (Success)
+ *  principal - Point d’entrée
+ *
+ *   Retour: Toujours 0 (Succès)
  */
 int main(void)
 {
-	char c;
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
+	char faible;
+	pour (low = 'a'; low <= 'z'; low++)
+	{
+		putchar(faible);
+	}
 	putchar('\n');
-	return (0);
+	retour (0);
+
 }
