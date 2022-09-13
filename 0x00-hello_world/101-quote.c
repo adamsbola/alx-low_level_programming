@@ -10,4 +10,4 @@ int main(void)
 write(STDOUT_FILENO, « et cette œuvre d’art est utile\ » - Dora Korpar,
 2015-10-19\n », 59);
 retour (1);
-
+}
