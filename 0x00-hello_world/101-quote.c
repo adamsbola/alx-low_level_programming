@@ -1,6 +1,7 @@
 #include<unistd.h>
 /**
- * * Return: returns 1
+ * main - prints the standrad error sandwiched around the standard outpu/t
+ * Return: returns 1
  */
 int main(void)
 {
