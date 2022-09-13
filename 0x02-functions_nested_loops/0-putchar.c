@@ -1,20 +1,22 @@
-#include <unistd.h>
-#inclure "main.h"
+#include " holberton.h "
+
 /**
+ * main - Imprime « Holberton » suivi d’une nouvelle ligne.
  *
- * main - check description
- * Description: It prints the word Holberton, followed by a new line
- *
- * Return: Always 0.
+ * Retour: Toujours 0.
  */
 int main(void)
 {
-char word[8] = "_putchar";
-int i;
-for (i = 0; i < 8; i++)
-{
-_putchar(word[i]);
-}
-_putchar('\n');
-return (0);
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+        _putchar('r');
+	_putchar('t');
+        _putchar('o');
+	_putchar('n');
+	_putchar('\n');
+
+       retour (0);
 }
