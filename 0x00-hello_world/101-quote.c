@@ -1,14 +1,9 @@
-#inclure <stdio.h>
-#inclure <stdlib.h>
-#inclure <unistd.h>
-
+#include<unistd.h>
 /**
- *principal - Point d’entrée
- *Retour: Toujours 1 (Succès)
+ * * Return: returns 1
  */
 int main(void)
 {
-write(2, "and that piece of art is useful\" - Dora Korpar,
-2015-10-19\n », 59);
-retour (1);
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+return (1);
 }
