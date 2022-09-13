@@ -1,4 +1,4 @@
-#include "main.h"
+#inclure « holberton.h »
 /**
  *  main - print putchar
  *   Return: always 0
