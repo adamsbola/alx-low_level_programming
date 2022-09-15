@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * more_numbers - check main
- *
+ * more_numbers - check mai:
  * Description: function that prints 10 times the numbers, from 0 to 14
  * Return: Nothing
  */
