@@ -30,8 +30,18 @@ _putchar('0' + product);
 else if (product > 9 && product < 100)
 {
 _putchar(' ');
-putchar('0' + (product / 10));
+_putchar('0' + (product / 10));
 _putchar('0' + (product % 10));
 }
-_putchar('\n');
+else if (product >= 100)
+{
+	_putchar('0' + (product / 100));
+	_putchar('0' + ((product / 10) % 10))
+	_putchar('0' + (product % 10));
+}
+}
+}
+	_putchar('\n');
+	}
+}
 }
