@@ -1,12 +1,26 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_most_numbers - check main
+ * Description: Write a function that prints the numbers, from 0 to 9
+ * Return: Nothing
  */
-int main(void)
+
+void print_most_numbers(void)
 {
-    print_most_numbers();
-    return (0);
+	int c;
+
+	for (c = 0; c <= 9; c++)
+	{
+		if (c == 2 || c == 4)
+		{
+			continue;
+		}
+		else
+		{
+			_putchar(c + '0');
+		}
+	}
+	_putchar('\n');
 }

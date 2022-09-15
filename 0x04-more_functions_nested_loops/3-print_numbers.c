@@ -1,12 +1,19 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_numbers - check main
+ * Description: Write a function that prints the numbers, from 0 to 9
+ * Return: Nothing
  */
-int main(void)
+
+void print_numbers(void)
 {
-    print_numbers();
-    return (0);
+	int c;
+
+	for (c = 0; c <= 9; c++)
+	{
+		_putchar(c + '0');
+	}
+	_putchar('\n');
 }
