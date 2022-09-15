@@ -1,11 +1,15 @@
 #include <stdio.h>
+
 /**
- *  main - natural numbers multiples of 3 or 5 to 1024  
- *  Return: always 0
+ * main - natural numbers multiples of 3 or 5 to 1024
+ *
+ * Return: always 0
  */
+
 int main(void)
 {
 	int s, t, f, tm, fm;
+
 	s = 0;
 	for (t = 0; t <= (1024 / 3); t++)
 	{
