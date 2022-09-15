@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - print fibonacci
  *
@@ -36,5 +35,5 @@ int main(void)
 		c2 = (a2 + b2) % 1000000000;
 	}
 printf("%lu%lu\n", c1, c2);
-	return (0);
+return (0);
 }
