@@ -23,3 +23,4 @@ int main(void)
 	}
 	printf("%u\n", s);
 	return (0);
+}
