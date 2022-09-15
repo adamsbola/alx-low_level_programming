@@ -10,7 +10,6 @@ int main(void)
 	a = 1;
 	b = 2;
 	c = a + b;
-
 	printf("%lu, ", a);
 	printf("%lu, ", b);
 	for (d = 3; d < 89; d++)
