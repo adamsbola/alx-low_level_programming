@@ -1,9 +1,9 @@
-#include  "main.h"
+#include "main.h"
 
 /**
- * leet - encoder la chaîne en 1337 leet
- * @s : chaîne à manipuler
- * Retour: chaîne
+ * leet - encode string into 1337 leet
+ * @s: string to manipulate
+ * Return: string
  */
 
 char *leet(char *s)
@@ -17,7 +17,7 @@ char *leet(char *s)
 	{
 		for (i = 0; a[i] != '\0'; i++)
 		{
-			si (s[j] == a[i])
+			if (s[j] == a[i])
 				s[j] = b[i];
 		}
 	}
