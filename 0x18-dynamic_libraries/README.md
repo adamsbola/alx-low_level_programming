@@ -1,1 +1,8 @@
-Dynamic library. The functions have been previously coded but for this task I created dummy files each containing the approprate prototype as seen in the header file.
+# 0x18. C - Dynamic libraries
+
+## General
+
+ - What is a dynamic library, how does it work, how to create one, and how to use it
+ - What is the environment variable $LD_LIBRARY_PATH and how to use it
+ - What are the differences between static and shared libraries
+ - Basic usage nm, ldd, ldconfig
