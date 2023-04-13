@@ -1,9 +1,19 @@
 #include "search_algos.h"
 
+/**
+ * mod_binary_search - Function that performs a binary search
+ * to find the target value. A modified version of the
+ * binary_search function in 1-binary.c
+ * @array: The passed in array
+ */
 int mod_binary_search(int *array, int value, int begin, int end)
 {
 	int mid = 0, temp = 0;
 
+	/*
+	 * There is no need to check if array is NULL here. This has
+	 * already been checked in exponential_search
+	 */
 	while (begin <= end)
 	{
 		temp = begin;
@@ -29,6 +39,14 @@ int mod_binary_search(int *array, int value, int begin, int end)
 	return (-1);
 }
 
+/**
+ * exponential_search - Function that performs an exponential
+ * search to find the target value
+ * @array: The passed in array
+ * @size: The size of the given array
+ * @value: The target value to be searched for
+ * Return: The index of the target value, or -1 if not found
+ */
 int exponential_search(int *array, size_t size, int value)
 {
 	int expo = 1, min = 0;
@@ -36,6 +54,11 @@ int exponential_search(int *array, size_t size, int value)
 	if (array == NULL)
 		return (-1);
 
+	/*
+	 * Given how exponential search works, index 0 is never checked
+	 * Therefore, this simple if statement checks if the target value
+	 * is in fact in index 0
+	 */
 	if (array[0] == value)
 		return (0);
 

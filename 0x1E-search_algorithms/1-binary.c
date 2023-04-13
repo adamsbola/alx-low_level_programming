@@ -1,5 +1,11 @@
 #include "search_algos.h"
 
+/**
+ * binary_search - Function that performs a binary search
+ * to find the target value
+ * @array: The passed in array
+ * @size: The size of the given array
+ */
 int binary_search(int *array, size_t size, int value)
 {
 	int begin = 0, end = (int)size - 1;

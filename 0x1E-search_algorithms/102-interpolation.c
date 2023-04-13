@@ -1,5 +1,11 @@
 #include "search_algos.h"
 
+/**
+ * interpolation_search - Function that performs an interpolation
+ * search to find the target value
+ * @array: The passed in array
+ * @size: The size of the given array
+ */
 int interpolation_search(int *array, size_t size, int value)
 {
 	unsigned int begin = 0;

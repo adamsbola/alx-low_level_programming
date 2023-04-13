@@ -1,6 +1,10 @@
-#include "search_algos.h"
 #include <math.h>
+#include "search_algos.h"
 
+/**
+ * linear_skip - Searches a value in a sorted linked list with an \
+ * express lane using a linear search.
+ */
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {
 	size_t i, step, a = 0, b = 0;
