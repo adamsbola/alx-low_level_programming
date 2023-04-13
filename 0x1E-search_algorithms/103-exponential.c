@@ -5,6 +5,10 @@
  * to find the target value. A modified version of the
  * binary_search function in 1-binary.c
  * @array: The passed in array
+ * @value: The target value to beg searched for
+ * @begin: The beginning pointer of the array from exponential_search
+ * @end: The ending pointer of the array from exponential_search
+ * Return: The index of the target value, or -1 if not found
  */
 int mod_binary_search(int *array, int value, int begin, int end)
 {

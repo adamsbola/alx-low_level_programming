@@ -4,6 +4,10 @@
 /**
  * linear_skip - Searches a value in a sorted linked list with an \
  * express lane using a linear search.
+ * @list: The linked list with an express lane to search in.
+ * @value: The value to look for.
+ *
+ * Return: The node with the value in the linked list, otherwise NULL.
  */
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {

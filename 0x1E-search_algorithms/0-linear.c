@@ -2,6 +2,7 @@
 
 /**
  * linear_search - Function that performs a linear search
+ * to find the target value
  * @array: The passed in array
  * @size: The size of the given array
  * @value: The target value to be searched for

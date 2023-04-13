@@ -5,6 +5,11 @@
  * search. This uses recursion as the instructions only allow
  * usage of 1 loop, and it must be for printing the entire
  * array being searched
+ * @array: The passed in array
+ * @value: The target value to be searched for
+ * @begin: The beginning pointer from advanced_binary
+ * @end: The ending pointer from advanced_binary
+ * Return: The index of the target value, or -1 if not found
  */
 int recursive_binary(int *array, int value, int begin, int end)
 {
