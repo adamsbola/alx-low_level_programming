@@ -1,6 +1,7 @@
 #include "search_algos.h"
 
-int recursive_binary(int *array, int value, int begin, int end){
+int recursive_binary(int *array, int value, int begin, int end)
+{
 
 	int mid = 0, temp = begin;
 
@@ -8,8 +9,8 @@ int recursive_binary(int *array, int value, int begin, int end){
 		return (-1);
 
 	printf("Searching in array: ");
-	while (temp <= end){
-	
+	while (temp <= end)
+	{
 		printf("%d", array[temp]);
 		if (temp != end)
 			printf(", ");
@@ -31,8 +32,9 @@ int recursive_binary(int *array, int value, int begin, int end){
 	return (recursive_binary(array, value, begin, end));
 }
 
-int advanced_binary(int *array, size_t size, int value){
 
+int advanced_binary(int *array, size_t size, int value)
+{
 	int begin = 0, end = (int)size - 1;
 
 	if (array == NULL)

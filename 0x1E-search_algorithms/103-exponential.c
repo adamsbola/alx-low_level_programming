@@ -1,15 +1,15 @@
 #include "search_algos.h"
 
-int mod_binary_search(int *array, int value, int begin, int end){
-
+int mod_binary_search(int *array, int value, int begin, int end)
+{
 	int mid = 0, temp = 0;
 
-	while (begin <= end){
-	
+	while (begin <= end)
+	{
 		temp = begin;
 		printf("Searching in array: ");
-		while (temp <= end){
-		
+		while (temp <= end)
+		{
 			printf("%d", array[temp]);
 			if (temp != end)
 			printf(", ");
@@ -29,19 +29,18 @@ int mod_binary_search(int *array, int value, int begin, int end){
 	return (-1);
 }
 
-int exponential_search(int *array, size_t size, int value){
-
+int exponential_search(int *array, size_t size, int value)
+{
 	int expo = 1, min = 0;
 
 	if (array == NULL)
 		return (-1);
 
-
 	if (array[0] == value)
 		return (0);
 
-	while (expo < (int)size && array[expo] < value){
-	
+	while (expo < (int)size && array[expo] < value)
+	{
 		printf("Value checked array[%d] = [%d]\n", expo, array[expo]);
 		expo *= 2;
 	}
